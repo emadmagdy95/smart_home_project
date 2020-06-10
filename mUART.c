@@ -42,6 +42,7 @@ unsigned char UART_ReceiveChar( void ) {
     while ((*temp=UART_ReceiveChar())!='.'){
         ++temp;
     }
+    
     return string;
     
 }

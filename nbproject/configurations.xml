@@ -5,8 +5,9 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>mUART.h</itemPath>
-      <itemPath>DIO.h</itemPath>
       <itemPath>BoardConfig.h</itemPath>
+      <itemPath>lcd.h</itemPath>
+      <itemPath>DIO_1.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -17,7 +18,8 @@
                    projectFiles="true">
       <itemPath>mUART.c</itemPath>
       <itemPath>main.c</itemPath>
-      <itemPath>DIO.c</itemPath>
+      <itemPath>lcd.c</itemPath>
+      <itemPath>DIO_1.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

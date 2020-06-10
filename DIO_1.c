@@ -9,11 +9,11 @@
 #include <xc.h>
 #include "DIO.h"
 
-void _setPINA(int pinNum) {
+void _setPIN(int pinNum) {
     PORTA |= (1 << pinNum);
 }
 
-void _resetPINA(int pinNum) {
+void _resetPIN(int pinNum) {
     PORTA &= ~(1 << pinNum);
 }
 
